@@ -58,5 +58,4 @@ services:
 
 networks:
   mynetwork:
-    external: true
-    name: mynetwork
+    driver: overlay
